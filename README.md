@@ -2,7 +2,7 @@
 
 Welcome to my personal website and project portfolio!  
 I am an undergraduate student at **UCLA**, majoring in **Statistics & Data Science** and **Cognitive Science**.  
-My interests include **cryptocurrency markets**, **data analysis**, **machine learning**,and **cognitive modeling**.
+My interests include **cryptocurrency markets**, **data analysis**, **machine learning**, and **cognitive modeling**.
 
 ---
 
@@ -25,8 +25,8 @@ More updates will be added soon.
 
 ## ✨ About Me  
 - UCLA Statistics & Data Science + Cognitive Science  
-- Skills: Python, R, pandas, scikit-learn, matplotlib, SEO, content operations  
-- Interests: ML, crypto, cognition, data visualization  
-- Contact: *add email if you want*  
+- Skills: Python, R, pandas, numpy, scikit-learn, matplotlib, SEO, content operations  
+- Interests: crypto, logic, cognition, data visualization  
+- Contact: *huiqiling@g.ucla.edu*  
 
 
