@@ -12,7 +12,7 @@ My interests include **cryptocurrency markets**, **data analysis**, **machine le
 This project analyzes market behavior across Bitcoin (BTC), Ethereum (ETH), and Dogecoin (DOGE) using Python and machine learning models such as Random Forest and SVR.
 
 👉 **[Read the full project report →](project.md)**  
-👉 **[View the code on GitHub →](https://github.com/huiqiling/crypto-market-analysis)**  
+👉 **[View the code on Google Colab →]([https://github.com/huiqiling/crypto-market-analysis](https://colab.research.google.com/drive/1q2uW3ua3fApD_IHoLxZL1_sQ_n8WQE57?usp=sharing))**  
 
 ---
 
