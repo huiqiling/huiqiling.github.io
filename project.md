@@ -75,7 +75,7 @@ To enable effective machine learning on cryptocurrency price data, a variety of 
 
 #### Figure 1: Closing Price Trends for 12 Major Cryptocurrencies (Log Scale)
 
-![](assets/IMG/figure1_price_trends.png){: width="700" }
+![](figure1_price_trends.png)
 
 *Figure 1: Closing Price Trends for 12 Major Cryptocurrencies (Log Scale)*
 
@@ -83,7 +83,7 @@ This plot shows the long-term price evolution of 12 major cryptocurrencies on a 
 
 #### Figure 2: Distribution of Daily Returns for 12 Major Cryptocurrencies
 
-![](assets/IMG/figure2_daily_returns.png){: width="600" }
+![](figure2_daily_returns.png)
 
 *Figure 2: Distribution of Daily Returns for 12 Major Cryptocurrencies (Log Y, Density)*
 
@@ -91,7 +91,7 @@ This figure shows the distribution of daily returns for the 12 selected cryptocu
 
 #### Figure 3: Daily Trading Volume for 12 Major Cryptocurrencies
 
-![](assets/IMG/figure3_trading_volume.png){: width="700" }
+![](figure3_trading_volume.png)
 
 *Figure 3: Daily Trading Volume for 12 Major Cryptocurrencies (Log Scale)*
 
@@ -99,7 +99,7 @@ This figure shows the daily trading volume of cryptocurrencies on a logarithmic 
 
 #### Figure 4: Feature vs Target Relationship
 
-![](assets/IMG/figure4_feature_target.png){: width="100%" }
+![](figure4_feature_target.png)
 
 *Figure 4: Feature Distributions by Next-Day Target (Boxplots)*
 
@@ -107,7 +107,7 @@ This figure shows the distribution of each engineered feature grouped by the sho
 
 #### Figure 5: Feature Correlation Heatmap
 
-![](assets/IMG/figure5_correlation_heatmap.png){: width="600" }
+![](figure5_correlation_heatmap.png)
 
 *Figure 5: Feature Correlation Heatmap for Engineered Predictors*
 
@@ -173,7 +173,7 @@ XGBoost is a gradient boosting method that builds decision trees sequentially to
 | 5       | 0.5584 | 0.5283       | 0.5338  |
 | 7       | 0.5560 | 0.5298       | 0.5240  |
 
-![](assets/IMG/figure6_model_comparison.png){: width="600" }
+![](figure6_model_comparison.png)
 
 *Figure 6: Model Performance Comparison Across Forecast Horizons*
 
@@ -189,7 +189,7 @@ All three models (Logistic Regression, Random Forest, XGBoost) were evaluated on
 
 ### Feature Importance (Horizon 1)
 
-![](assets/IMG/figure7_feature_importance.png){: width="700" }
+![](figure7_feature_importance.png)
 
 *Figure 7: Feature Importance for Random Forest and XGBoost (Horizon 1)*
 
