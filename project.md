@@ -37,35 +37,27 @@ To enable effective machine learning on cryptocurrency price data, a variety of 
 - **Lag Features**: Previous closing prices (e.g., lag_1, lag_7) to capture short-term memory and trends.
 - **Returns and Momentum**: *n-day return* (e.g., ret_3, ret_7) is the simple return over a fixed window
 
-<p>
-\[
-\mathrm{ret}_n = \frac{\mathrm{Close}_t - \mathrm{Close}_{t-n}}{\mathrm{Close}_{t-n}}
-\]
-</p>
+ $$
+  \mathrm{ret}_n = \frac{\mathrm{Close}_t - \mathrm{Close}_{t-n}}{\mathrm{Close}_{t-n}}
+  $$
 
 - **Moving Averages**: Simple moving average (SMA)
 
-<p>
-\[
+$$
 \mathrm{ma}_n(t) = \frac{1}{n} \sum_{i=0}^{n-1} \mathrm{Close}_{t-i}
-\]
-</p>
+  $$
 
 - **Volatility**: Rolling standard deviation of returns (volatility):
 
-<p>
-\[
+$$
 \mathrm{volatility}_n(t) = \mathrm{std}(\mathrm{return}_{t-n+1}, \ldots, \mathrm{return}_t)
-\]
-</p>
+  $$
 
 - **Volume Change**: Change of daily trading volume
 
-<p>
-\[
+$$
 \mathrm{volume\_change}_t = \frac{\mathrm{Volume}_t - \mathrm{Volume}_{t-1}}{\mathrm{Volume}_{t-1}}
-\]
-</p>
+ $$
 
 - **Streaks**: Consecutive up/down days (up_streak, down_streak) to capture persistent trends or reversals.
 - **Rolling Max/Min and Quantiles**: Rolling max, rolling min, and rolling quantile (e.g., 90th percentile) for detecting price extremes.
