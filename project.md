@@ -5,7 +5,7 @@
 This project explores whether short-term cryptocurrency price changes can be predicted using simple machine-learning models and basic time-series features. Using daily data for Bitcoin, Ethereum, and ten other cryptocurrencies, I built lag features, volatility measures, and rolling averages, then tested Logistic Regression, Random Forest, and XGBoost on 1, 3, 5, and 7-day prediction windows.
 
 The models show small but consistent level of predictability for the 1 and 3 day horizons (with accuracy reaching about 0.56), while performance drops off quickly for longer forecasts. Tree-based models do slightly better for very short-term predictions, and Logistic Regression ends up being more stable for the 5 and 7 day horizons. Overall, the findings match the common idea that crypto prices can show short-lived patterns, but become much harder to predict as the time horizon gets longer.
-
+![](https://share.google/images/UQisVy7oAOxu8QMgx)
 ***
 
 ## Introduction 
